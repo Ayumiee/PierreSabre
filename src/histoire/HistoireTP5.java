@@ -26,10 +26,12 @@ public class HistoireTP5 {
 		roro.listerConnaissance();
 		yaku.listerConnaissance();
 		
-		Samourai akimoto = new Samourai ("Akimoto","saké",80,"Miyamoto");
+		Samourai akimoto = new Samourai ("Akimoto","sakï¿½",80,"Miyamoto");
 		
 		akimoto.faireConnaissanceAvec(marco);
 		akimoto.listerConnaissance();
+		
+		akimoto.boire("thÃ©");
 	}
 
 }
